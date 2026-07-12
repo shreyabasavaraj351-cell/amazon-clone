@@ -8,6 +8,8 @@
     height: 60px;
     background-color: #0F1111;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .nav-logo {
@@ -22,4 +24,27 @@
     height: 50px;
     width: 100%;
 
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.add-1 {
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-2 {
+    font-size: 1rem
+
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
 }
